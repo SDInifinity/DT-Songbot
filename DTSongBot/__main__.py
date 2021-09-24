@@ -9,19 +9,19 @@ from DTSongBot import DTbot as app
 from DTSongBot import LOGGER
 
 pm_start_text = """
-Heya [{}](tg://user?id={}), I'm 🎧 Song Download bot  🎵
-Do /help for know my commands
-A bot by @Damantha_Jasinghe
-Updates channel @ankivectorUpdates
+✍️ Heya [{}](tg://user?id={}),
+I'm 🎧 SZ Song Downloader Bot..I Can Upload Songs Telegram..
+Send /help Command For Hit Any Help..
+Powerd By (ominda)[https://telegra.ph/file/062cf9970f2817beff59f.jpg]:
 """
 
 help_text = """
-My commands👇
+My Commands Avible ✍️
 - /song <song name>: download songs via Youtube
 - /saavn <song name>: download songs via JioSaavn
 - /deezer <song name>: download songs via Deezer
 - Send youtube url to my pm for download it on audio format
-A bot by @ankivectorUpdates
+A bot by (ominda)[https://telegra.ph/file/062cf9970f2817beff59f.jpg]:
 """
 
 @app.on_message(filters.command("start"))
@@ -34,10 +34,12 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Updates channel", url="https://t.me/ankivectorUpdates"
-                    ),
+                        text="✨ Get Any Help ✨", url="https://t.me/omindas"
+                    )
+                ]
+                [
                     InlineKeyboardButton(
-                        text="Support Group", url="https://t.me/AnkiSupport_Official"
+                        text="✍️ Support ✍️", url="https://t.me/AnkiSupport_Official"
                     )
                 ]
             ]
